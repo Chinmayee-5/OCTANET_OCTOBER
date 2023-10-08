@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+     padding:0;
+    
+}
+.page{
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
+}
+.top{
+    color: blue;
+    word-spacing: 25px;
+    font-size:20px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.top>section{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3vmax 1vmax;
+
+}
+.header>img{
+    width:7vmax;
+}
+.header .menu{
+    display: flex;
+}
+.menu>li{
+    list-style: none;
+    padding: 0 1.3vmax;
+
+}
+.main_section{
+    width: 100vw;
+    position: relative;
+    height: 90vh;
+}
+ .main_section h{
+    font-weight: bold;
+    font-size: 50px;
+    
+ }
+ .main_section p{
+    font-weight: 10px;
+    padding-top:15px ;
+    
+ }
+ main_section h span{
+    color:blue;
+}
+.main_section::after{
+    content: "";
+    background-image: url('./dctr\ \(1\).jpg');
+    position: absolute;
+    top: 0%;
+    height: 150%;
+    left:0%;
+    width:100vw;
+    opacity: 0.3;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.background-img>img{
+    width: 100%;
+}
+.buttom{
+    display: flex;
+    justify-content: center;
+    z-index: 1001;
+    padding: 1.7vmax;
+}
+.buttom button{
+    background-color: white;
+    color: black;
+    margin: 0 1vmax;
+    transition: 0.3s,case-in;
+    z-index: 10;
+    cursor: pointer;
+    padding: 0.8vmax 1.5vmax;
+    font: 600 1.3vmax "lato";
+}
+.buttom button:hover{
+        background-color:blue;
+        color: white;
+        border: 2px solid;
+    }   
+
+.footer{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   padding: 30px;
+   
+}
